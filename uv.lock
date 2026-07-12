@@ -931,7 +931,7 @@ wheels = [
 ]
 
 [[package]]
-name = "ml-project"
+name = "my-ml-project"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

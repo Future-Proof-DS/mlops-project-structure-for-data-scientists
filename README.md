@@ -25,9 +25,9 @@ so you drop in your own project.
 ## How to use it
 
 1. Click **Use this template** (or fork it) to start your own project.
-2. Rename the `src/ml_project/` package to your project's name, and update the
+2. Rename the `src/my_ml_project/` package to your project's name, and update the
    matching line in `pyproject.toml` (`[tool.hatch.build.targets.wheel]`).
-3. Implement the stubs in `src/ml_project/` (`data.py`, `features.py`,
+3. Implement the stubs in `src/my_ml_project/` (`data.py`, `features.py`,
    `train.py`, `predict.py`). Each has a `TODO` marking what goes there.
 4. Build from there.
 
@@ -65,7 +65,7 @@ uv run jupyter lab            # opens notebooks/01_exploration.ipynb
 
 ```
 .
-├── src/ml_project/      # YOUR CODE. Installable package, imported everywhere.
+├── src/my_ml_project/      # YOUR CODE. Installable package, imported everywhere.
 │   ├── data.py          #   loading + cleaning
 │   ├── features.py      #   feature engineering (plain, testable functions)
 │   ├── train.py         #   training logic

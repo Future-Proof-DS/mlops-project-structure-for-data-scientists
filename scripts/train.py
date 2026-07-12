@@ -3,7 +3,7 @@
     uv run scripts/train.py
 
 Production runs a script, never a notebook. All the real logic lives in
-src/ml_project/, so this stays a few lines. Implement the package's stubs, then
+src/my_ml_project/, so this stays a few lines. Implement the package's stubs, then
 this runs end to end.
 """
 
@@ -13,8 +13,8 @@ from pathlib import Path
 
 import joblib
 
-from ml_project.data import load_data
-from ml_project.train import train_model
+from my_ml_project.data import load_data
+from my_ml_project.train import train_model
 
 MODELS_DIR = Path(__file__).resolve().parent.parent / "models"
 

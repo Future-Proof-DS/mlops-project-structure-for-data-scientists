@@ -12,6 +12,6 @@ import pandas as pd
 
 def train_model(df: pd.DataFrame):
     """Fit and return a model."""
-    # TODO: build your features (see ml_project.features.build_features), fit an
+    # TODO: build your features (see my_ml_project.features.build_features), fit an
     # estimator on them, and return the fitted model.
     raise NotImplementedError("Implement train_model() for your project.")

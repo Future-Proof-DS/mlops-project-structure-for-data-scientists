@@ -3,7 +3,7 @@
     uv run scripts/evaluate.py
 
 Like scripts/train.py, this just wires things together. The metric logic would
-live in src/ml_project/ so it stays testable.
+live in src/my_ml_project/ so it stays testable.
 """
 
 from __future__ import annotations
@@ -12,9 +12,9 @@ from pathlib import Path
 
 import joblib
 
-from ml_project.data import load_data
-from ml_project.features import build_features
-from ml_project.predict import predict
+from my_ml_project.data import load_data
+from my_ml_project.features import build_features
+from my_ml_project.predict import predict
 
 MODEL_PATH = Path(__file__).resolve().parent.parent / "models" / "model.pkl"
 

@@ -3,8 +3,8 @@ cells), it's testable without opening a notebook. Replace this with real tests
 of your features and training as you build them out.
 """
 
-import ml_project
+import my_ml_project
 
 
 def test_package_imports():
-    assert ml_project.__version__
+    assert my_ml_project.__version__
