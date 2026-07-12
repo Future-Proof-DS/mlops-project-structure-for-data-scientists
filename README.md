@@ -6,7 +6,7 @@ converged on, already wired up with `uv`, tests, and CI.
 
 This is the companion template to **Part 1** of the
 [MLOps for Data Scientists](https://futureproofds.com/blog/mlops-for-data-scientists)
-series. The article explains *why* the structure looks like this; this repo is
+course. The article explains *why* the structure looks like this; this repo is
 the structure itself, ready to build on.
 
 ---
