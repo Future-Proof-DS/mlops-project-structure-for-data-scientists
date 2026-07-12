@@ -31,6 +31,17 @@ so you drop in your own project.
    `train.py`, `predict.py`). Each has a `TODO` marking what goes there.
 4. Build from there.
 
+**Prefer the command line?**
+
+```bash
+# With the GitHub CLI (creates a fresh repo from the template):
+gh repo create my-project --template Future-Proof-DS/mlops-project-structure-for-data-scientists --clone
+
+# Or plain git (copy the files, start your own history):
+git clone https://github.com/Future-Proof-DS/mlops-project-structure-for-data-scientists.git my-project
+cd my-project && rm -rf .git && git init
+```
+
 ### The tooling (works before you write any code)
 
 This project uses [uv](https://docs.astral.sh/uv/). With `uv run`, you don't
