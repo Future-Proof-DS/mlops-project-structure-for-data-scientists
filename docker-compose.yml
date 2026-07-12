@@ -1,0 +1,6 @@
+# Local orchestration. Expand this in Part 2 when you add a FastAPI service.
+services:
+  trainer:
+    build: .
+    volumes:
+      - ./models:/app/models

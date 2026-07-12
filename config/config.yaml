@@ -1,0 +1,10 @@
+# Example config. As your project grows, move hyperparameters and paths here
+# instead of hard-coding them across scripts. (For a fuller approach, most ML
+# teams end up on Hydra: https://hydra.cc/)
+model:
+  # your model's hyperparameters go here
+  random_state: 42
+
+data:
+  raw_dir: data/01_raw
+  processed_dir: data/03_processed

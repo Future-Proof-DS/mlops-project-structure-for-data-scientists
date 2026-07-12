@@ -1,0 +1,39 @@
+[project]
+name = "ml-project"
+version = "0.1.0"
+description = "A production-minded ML project template. Part 1 of the MLOps for Data Scientists series."
+requires-python = ">=3.12"
+dependencies = [
+    # Starter dependencies for a typical ML project. Adjust these for your stack.
+    "pandas>=2.2",
+    "numpy>=2.0",
+    "scikit-learn>=1.5",
+    "joblib>=1.4",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+# Linting + testing. This is what CI installs (fast, no notebook stack).
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+# For running the example notebook locally. Install with: uv sync --all-extras
+notebook = [
+    "jupyter>=1.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# The "src layout": your package lives under src/, which forces it to be
+# installed (uv does this for you). That surfaces import bugs early, before
+# they bite you in production. Rename "ml_project" to your package name.
+[tool.hatch.build.targets.wheel]
+packages = ["src/ml_project"]
+
+[tool.ruff]
+line-length = 100
+# Notebooks are exploratory; don't fail CI on unused imports there.
+extend-exclude = ["notebooks"]
