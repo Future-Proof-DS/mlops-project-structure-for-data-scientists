@@ -26,7 +26,7 @@ def main() -> None:
     MODELS_DIR.mkdir(exist_ok=True)
     out_path = MODELS_DIR / "model.pkl"
     joblib.dump(model, out_path)
-    print(f"✅ Model trained and saved to {out_path}")
+    print(f"Model trained and saved to {out_path}")
 
 
 if __name__ == "__main__":
