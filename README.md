@@ -103,14 +103,3 @@ uv run jupyter lab            # opens notebooks/01_exploration.ipynb
   a reproducible transformation of it.
 - **Dependencies are locked** (`uv.lock`), so the project builds the same on your
   machine, in CI, and in a container.
-
-## Where this fits in the series
-
-This is the foundation. The later parts build on this exact structure:
-
-- **Part 2** wraps the model in a FastAPI service and containerizes it.
-- **Part 3** adds experiment tracking and a model registry with MLflow.
-- **Part 4** turns `.github/workflows/` into a full CI/CD pipeline.
-- **Part 5** adds monitoring and drift detection.
-
-Get the structure right here, and each of those becomes almost mechanical.
