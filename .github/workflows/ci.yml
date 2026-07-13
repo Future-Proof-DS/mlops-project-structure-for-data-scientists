@@ -1,5 +1,4 @@
 # Continuous integration: lint and run the tests on every push.
-# Part 4 of the series extends this into full CI/CD (build + deploy).
 name: CI
 
 on:

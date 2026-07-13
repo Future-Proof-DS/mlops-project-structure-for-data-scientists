@@ -1,7 +1,7 @@
 [project]
 name = "my-ml-project"
 version = "0.1.0"
-description = "A production-minded ML project template. Part 1 of the MLOps for Data Scientists series."
+description = "A production-minded ML project template for data scientists."
 requires-python = ">=3.12"
 dependencies = [
     # Starter dependencies for a typical ML project. Adjust these for your stack.

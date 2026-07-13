@@ -1,5 +1,4 @@
 # Containerize the project so it runs the same anywhere.
-# Part 2 of the series covers this in depth. This is a working starting point.
 FROM python:3.12-slim
 
 # Install uv, the same tool you use locally.
@@ -11,5 +10,5 @@ COPY . .
 # Install dependencies from the lockfile into the container's environment.
 RUN uv sync --frozen --no-dev
 
-# Default command trains the model. In Part 2 you swap this for your service.
+# Default command trains the model. Swap this for your own entry point or service.
 CMD ["uv", "run", "scripts/train.py"]

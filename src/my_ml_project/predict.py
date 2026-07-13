@@ -1,7 +1,6 @@
 """Inference logic.
 
-Turns a fitted model and some rows into predictions. In Part 2 of the series, a
-FastAPI service calls into here.
+Turns a fitted model and some rows into predictions.
 """
 
 from __future__ import annotations

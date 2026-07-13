@@ -1,4 +1,4 @@
-# Local orchestration. Expand this in Part 2 when you add a FastAPI service.
+# Local orchestration. Add services here as the project grows.
 services:
   trainer:
     build: .
