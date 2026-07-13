@@ -94,7 +94,6 @@ uv run jupyter lab            # opens notebooks/01_exploration.ipynb
 │   ├── 03_processed/    #   model-ready
 │   └── 04_predictions/  #   model outputs
 ├── models/              # Saved model artifacts.
-├── mlruns/              # MLflow experiment tracking.
 ├── Dockerfile           # Containerize the project.
 ├── docker-compose.yml   # Local orchestration.
 ├── .github/workflows/   # CI/CD pipeline.
