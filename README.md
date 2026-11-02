@@ -5,8 +5,8 @@ it, rename the package, and you have the structure most MLOps-mature teams have
 converged on, already wired up with `uv`, tests, and CI.
 
 This is the companion template to **Part 1** of the
-[MLOps for Data Scientists](https://futureproofds.com/blog/mlops-for-data-scientists)
-course. The article explains *why* the structure looks like this; this repo is
+[MLOps for Data Scientists](https://futureproofds.com/resources/mlops-for-data-scientists?utm_source=github&utm_medium=readme&utm_campaign=andres_vourakis_github&utm_content=mlops_project_structure)
+course. The course explains *why* the structure looks like this; this repo is
 the structure itself, ready to build on.
 
 ---
